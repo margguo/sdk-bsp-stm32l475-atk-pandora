@@ -113,4 +113,120 @@ default_projects:
     - tools
     - Kconfig
     - LICENSE
+- project_name: empty1
+  project_description: creat this peoject if user choose rt-thread project
+  project_type: rt-thread|@full|@latest
+  builtin_files:
+  - source_path_offset: default_project_0
+    target_path_offset: ''
+    files_and_folders:
+    - ".settings"
+    - applications
+    - board
+    - figures
+    - libraries
+    - ".config"
+    - ".cproject"
+    - ".gitignore"
+    - ".project"
+    - cconfig.h
+    - Kconfig
+    - makefile.targets
+    - project.ewd
+    - project.ewp
+    - project.eww
+    - project.uvoptx
+    - project.uvprojx
+    - README.md
+    - rtconfig.h
+    - rtconfig.py
+    - rtconfig_preinc.h
+    - SConscript
+    - SConstruct
+    - template.ewp
+    - template.eww
+    - template.uvoptx
+    - template.uvprojx
+  external_files:
+  - package_type: Chip_Support_Packages
+    package_vendor: RealThread
+    package_name: STM32L4
+    package_version: 0.1.9
+    source_path_offset: ''
+    target_path_offset: ''
+    files_and_folders: []
+  - package_type: RT-Thread_Source_Code
+    package_vendor: ''
+    package_name: RT-Thread
+    package_version: latest
+    source_path_offset: ''
+    target_path_offset: rt-thread
+    files_and_folders:
+    - components
+    - include
+    - libcpu/arm
+    - libcpu/Kconfig
+    - libcpu/Sconscript
+    - src
+    - tools
+    - Kconfig
+    - LICENSE
+- project_name: empty2
+  project_description: creat this peoject if user choose rt-thread project
+  project_type: rt-thread|@full|@lts-v3.1.4
+  builtin_files:
+  - source_path_offset: default_project_0
+    target_path_offset: ''
+    files_and_folders:
+    - ".settings"
+    - applications
+    - board
+    - figures
+    - libraries
+    - ".config"
+    - ".cproject"
+    - ".gitignore"
+    - ".project"
+    - cconfig.h
+    - Kconfig
+    - makefile.targets
+    - project.ewd
+    - project.ewp
+    - project.eww
+    - project.uvoptx
+    - project.uvprojx
+    - README.md
+    - rtconfig.h
+    - rtconfig.py
+    - rtconfig_preinc.h
+    - SConscript
+    - SConstruct
+    - template.ewp
+    - template.eww
+    - template.uvoptx
+    - template.uvprojx
+  external_files:
+  - package_type: Chip_Support_Packages
+    package_vendor: RealThread
+    package_name: STM32L4
+    package_version: 0.1.9
+    source_path_offset: ''
+    target_path_offset: ''
+    files_and_folders: []
+  - package_type: RT-Thread_Source_Code
+    package_vendor: ''
+    package_name: RT-Thread
+    package_version: lts-v3.1.4
+    source_path_offset: ''
+    target_path_offset: rt-thread
+    files_and_folders:
+    - components
+    - include
+    - libcpu/arm
+    - libcpu/Kconfig
+    - libcpu/Sconscript
+    - src
+    - tools
+    - Kconfig
+    - LICENSE
 example_projects: []
